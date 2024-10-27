@@ -16,7 +16,7 @@ form.addEventListener('submit', function(e){
     if (enterdUsername === validUsername && enterPassword === validPassword) {
         alert('Inicio de secion exitoso!')
        //redirige a la pagina//
-        window.location.href = '';
+        window.location.href = '/CRUD/index.html';
     } else {
         alert('Falla de inicio de secion')
     }
